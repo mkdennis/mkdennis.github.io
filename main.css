@@ -72,10 +72,9 @@ img {
 
 }
 
-#bio .column.right p {
-    width: 400px;
-    color: burlywood;
-    font-size: .9rem;
+#bio .column.left p {
+    color: #C09762;
+    font-size: 1.2rem;
     line-height: 180%;
 }
 
