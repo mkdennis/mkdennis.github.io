@@ -1,5 +1,10 @@
 * {
-    font-family: Arial;
+    font-family: Avenir;
+}
+
+body{
+    width: 100%;
+    background: #B98A55;
 }
 
 h2 {
@@ -8,6 +13,7 @@ h2 {
 
 .body-wrapper {
     margin: 80px 6%;
+    
 }
 
 .navigation-menu {
@@ -18,7 +24,7 @@ h2 {
 
 .navigation-menu a {
     margin-right: 20px;
-    color: #5B5B5B;
+    color: white;
     text-decoration: none;
 
 }
@@ -30,6 +36,7 @@ h2 {
 
 
 #home .column.left  {
+    padding-top: 60px;
     padding-left: 50px;
 }
 
@@ -40,20 +47,43 @@ h2 {
 }
 
 #home h1 {
-    color: #7B886B;
-    font-size: 2.6rem;
+    color: white;
+    font-size: 3rem;
     margin-bottom: 0px;
+    font-family: Garamond;
 }
 
 #home p {
+    font-size: 1.1rem;
     margin: 0px;
-    margin-top: 5px;
+    margin-top: 20px;
+    line-height: 180%;
+    width: 80%;
 }
 
+.projects {
+    margin-top: 70px;
+}
 
-img {
-    width: 400px;
-    height: auto;  
+.project {
+    height: 300px;
+    background: black;
+}
+
+.HSHS {
+    background: #41774D;
+}
+
+.Twiage {
+   background: #9A3B3B;
+}
+
+.comp20 {
+    background: #343030;
+}
+
+.dataviz {
+    background: #977575;
 }
 
 #bio .container {
@@ -73,7 +103,6 @@ img {
 }
 
 #bio .column.left p {
-    color: #C09762;
     font-size: 1.2rem;
     line-height: 180%;
 }
