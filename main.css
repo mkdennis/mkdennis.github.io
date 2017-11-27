@@ -74,6 +74,13 @@ h2 {
    background: #9A3B3B;
 }
 
+.Twiage a{
+    font-size: 3rem;
+    text-decoration: underline;
+    color: white;
+    margin-left: 300px;
+}
+
 .comp20 {
     background: #343030;
 }
@@ -189,4 +196,27 @@ h2 {
     font-size: 1.6rem;
     color: #5D8D6A;
     text-decoration: underline;
+}
+
+.twiage .web-redesign .problemspace{
+    margin: 0;
+    padding-bottom: 50px;
+    clear: both;
+}
+
+
+.twiage .web-redesign img {
+    width: 400px;
+}
+
+
+.twiage .sectiontitle {
+    text-align: right;
+    padding-right: 40px;
+    margin-top: 15px;
+}
+
+
+.twiage #statapp {
+    padding-top: 50px;
 }
