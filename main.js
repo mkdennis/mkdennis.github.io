@@ -9,5 +9,10 @@ $( document ).ready(function(){
 		$('html, body').animate({
 			scrollTop: $("#statapp").offset().top}, 2000);
 	});
+
+	$(".project").hover(
+		function(){
+			$(this).append()
+		})
 	
 });
