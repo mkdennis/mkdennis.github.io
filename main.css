@@ -4,15 +4,15 @@
 
 body{
     width: 100%;
-    background: #B98A55;
 }
 
 h2 {
     font-size: 1.3rem;   
 }
 
+
 .body-wrapper {
-    margin: 80px 6%;
+    margin: 80px 10%;
     
 }
 
@@ -24,36 +24,32 @@ h2 {
 
 .navigation-menu a {
     margin-right: 20px;
-    color: white;
     text-decoration: none;
-
+    color: black;
 }
 
-#home .container {
+.home .container {
     display: flex;
     align-items: center;
 }
 
 
-#home .column.left  {
+.home .column.left  {
     padding-top: 60px;
-    padding-left: 50px;
 }
 
-#home .column.right {
+.home .column.right {
     /*border: 1px solid #000000;*/
     padding-left: 30px;
-
 }
 
-#home h1 {
-    color: white;
+.home .intro h1 {
     font-size: 3rem;
     margin-bottom: 0px;
-    font-family: Garamond;
+    font-family: Garamond, "Jeju Hallasan";
 }
 
-#home p {
+.home .intro p {
     font-size: 1.1rem;
     margin: 0px;
     margin-top: 20px;
@@ -171,3 +167,26 @@ h2 {
     margin: 0;
 }
 
+
+/* -----------Twiage----------- */
+
+.twiage .intro{
+    margin-top: 100px;
+}
+
+.twiage .intro h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.twiage .intro p {
+    font-size: 1.6rem;
+    line-height: 130%;
+}
+
+.twiage .intro .link{
+    font-size: 1.6rem;
+    color: #5D8D6A;
+    text-decoration: underline;
+}
