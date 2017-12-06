@@ -1,8 +1,9 @@
-* {
-    font-family: Avenir;
-}
+html { -webkit-font-smoothing: antialiased; }
 
-body{
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
     width: 100%;
 }
 
@@ -44,16 +45,18 @@ h2 {
 }
 
 .home .intro h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     margin-bottom: 0px;
-    font-family: Garamond;
+    font-family: Oxygen;
+    font-weight: 700;
 }
 
 .home .intro p {
     margin: 0px;
     margin-top: 20px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 130%;
+    width: 50%;
 }
 
 .projects {
@@ -224,25 +227,15 @@ h2 {
     text-decoration: underline;
 }
 
-.twiage .web-redesign .problemspace{
-    margin: 0;
-    padding-bottom: 50px;
-    clear: both;
+.twiage header {
+    text-align: center;
 }
 
-
-.twiage .web-redesign img {
-    width: 400px;
+.twiage content {
+    text-align: center;
 }
 
-
-.twiage .sectiontitle {
-    text-align: right;
-    padding-right: 40px;
-    margin-top: 15px;
-}
-
-
+    
 .twiage #statapp {
     padding-top: 50px;
 }

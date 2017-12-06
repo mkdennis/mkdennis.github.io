@@ -10,9 +10,5 @@ $( document ).ready(function(){
 			scrollTop: $("#statapp").offset().top}, 2000);
 	});
 
-	$(".project").hover(
-		function(){
-			$(this).append()
-		})
 	
 });
