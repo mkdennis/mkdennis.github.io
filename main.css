@@ -5,8 +5,7 @@ body {
    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
    width: 100%;
-   background-color: #ADB7C1;
-   color: white;
+   background-color: #F7F7F7;
 }
 
 h1 {
@@ -16,6 +15,12 @@ h1 {
 h2 {
     font-size: 1.3rem;   
 }
+
+a:link { color: #CC9B9B; text-decoration: underline;}
+a:visited { color: #CC9B9B;}
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:blue }
 
 .homelink {
     text-decoration: none;
@@ -42,14 +47,13 @@ h2 {
 .navigation-menu a {
     margin-right: 20px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .home .container {
     display: flex;
     align-items: center;
 }
-
 
 .home .column.left  {
     padding-top: 60px;
@@ -75,14 +79,29 @@ h2 {
     width:100%;
 }
 
+.home .intro {
+    animation: fadein 1s both;
+    animation-delay: .1s;
+}
 
+@keyframes fadein{
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
 
 .projects {
     margin-top: 70px;
 }
 
-.project a h3 p{
-    text-decoration: none !important;
+.projects a{
+    text-decoration: none;
 }
 
 .project {
@@ -109,7 +128,11 @@ h2 {
     text-align: right;
 }
 
-.projectright h3, p {
+.projectright h3 {
+    margin-right: 100px;
+}
+
+.projectright p {
     margin-right: 100px;
 }
 
@@ -146,14 +169,15 @@ h2 {
     background: #5A8FC4;
 }
 
+
+/* -----------Bio----------- */
+
+
 #bio .container {
     display: flex;
-    align-items: center;
 }
 
-
 #bio .column.left  {
-    padding-left: 50px;
 }
 
 #bio .column.right {
@@ -163,101 +187,49 @@ h2 {
 }
 
 #bio .column.left p {
-    font-size: 1.2rem;
-    line-height: 180%;
+    font-size: 1.1rem;
+    line-height: 160%;
 }
 
-
-
-/* -----------Resume----------- */
-
-.container {
-    display: flex;
-}
-#resume .column.left{
-    /*border: 1px solid #000000;*/
-}
-
-
-#resume .column.right{
-    width: 600px;
-    padding-left: 20px;
-    /*border: 1px solid blue;*/
-}
-
-.contact-info {
-    /*border: 1px solid red;*/
-}
-
-.contact-info h1 {
-    margin-bottom: 5px;
-}
-
-.contact-info p {
-    margin: 0;
-    font-size: .7rem;
-}
-
-.education-section {
-    margin-bottom: 20px;
-}
-
-.experience-section {
-    display: inline-block;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-.experience-section h2 {
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-.experience {
-    margin-bottom: 30px;
-}
-
-.experience h3 {
-    font-size: 1rem;
-    margin-bottom: 10px;
-    margin-top: 0px;
-}
-
-.experience p {
-    margin: 0px;
-}
-
-.skills-section {
-    margin: 0;
+#bio img {
+    border-radius: 9px;
 }
 
 
 /* -----------Twiage----------- */
 
-.twiage .intro{
-    margin-top: 100px;
+.twiage {
+    text-align: center;
 }
 
-.twiage .intro h1{
-    font-size: 4rem;
+.casestudy .intro{
+    margin-top: 50px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.casestudy .intro h1{
+    font-size: 3.5rem;
     font-weight: 500;
-    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.twiage .intro p {
-    font-size: 1.6rem;
+.casestudy .intro p {
+    font-size: 1.4rem;
     line-height: 130%;
+    font-weight: 400;
+    text-align: center;
 }
 
-.twiage .intro .link{
-    font-size: 1.6rem;
+.casestudy .intro .link{
+    font-size: 1.4rem;
     color: #5D8D6A;
     text-decoration: underline;
 }
 
-.twiage header {
-    text-align: center;
-}
 
 .twiage content {
     text-align: center;
