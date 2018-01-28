@@ -10,5 +10,12 @@ $( document ).ready(function(){
 			scrollTop: $("#statapp").offset().top}, 1400);
 	});
 
+	$("#finalproduct").click(function(){
+		$('html, body').animate({
+			scrollTop: $("#newsite").offset().top}, 1400);
+	});
+
+
+
 	
 });
