@@ -208,16 +208,20 @@ a:hover, a:active { text-decoration: none; color:blue }
 }
 
 .twiage {
-    text-align: center;
 }
 
-#siteredesign {
-    margin-top: 40px;
-    font-family: 'Open Sans';
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 150%;
-    color: #323232;
+.casestudy h2 {
+    text-align: left;
+}
+
+.casestudy .intro .link{
+    font-size: 1.4rem;
+    color: #5D8D6A;
+    text-decoration: underline;
+}
+
+.casestudy .intro .link:hover{
+    color: #392fde;
 }
 
 .casestudy .intro{
@@ -243,28 +247,21 @@ a:hover, a:active { text-decoration: none; color:blue }
     color: #9B9B9B;
 }
 
-.casestudy .intro .link{
-    font-size: 1.4rem;
-    color: #5D8D6A;
-    text-decoration: underline;
+.casestudy .writing p, li{
+    font-family: Georgia;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #323232;
 }
 
-.casestudy .intro .link:hover{
-    color: #392fde;
-}
-
-
-.twiage content {
-    text-align: center;
+.casestudy .section {
+    margin-top: 50px;
 }
     
 .twiage #statapp {
     padding-top: 50px;
-}
-
-.twiage .site img {
-    margin: 0 auto;
-    margin-top: 30px;
 }
 
 button {
