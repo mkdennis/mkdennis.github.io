@@ -159,6 +159,8 @@ a:hover, a:active { text-decoration: none; color:blue }
 .projecttwo {
    background-image : url('images/twiagethumbnail.png');
    background-size: contain;
+       background-repeat: no-repeat;
+
 }
 
 
@@ -224,7 +226,6 @@ a:hover, a:active { text-decoration: none; color:blue }
 
 .casestudy .intro{
     margin-top: 50px;
-    width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
