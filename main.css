@@ -107,7 +107,7 @@ a:hover, a:active { text-decoration: none; color:blue }
     margin-top: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1em;
+    grid-column-gap: 2em;
     grid-row-gap: 2rem;
 
 }
@@ -117,10 +117,11 @@ a:hover, a:active { text-decoration: none; color:blue }
 }
 
 .project {
-    max-height: 300px;
+    height: 150px;
+    width: inherit;
     padding: 50px;
     padding-top: 200px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     opacity: 0.85;
     transition: .3s ease;
     text-decoration: none;
@@ -143,6 +144,17 @@ a:hover, a:active { text-decoration: none; color:blue }
     margin-top: 10px;
 }
 
+.project.observer p {
+     color: #323232;
+     width: 280px;
+}
+
+.project.observer h3 {
+     color: #323232;
+}
+
+
+
 
 .project:hover {
     opacity: 1;
@@ -152,15 +164,17 @@ a:hover, a:active { text-decoration: none; color:blue }
 
 .HSHS {
     background-image: url('images/hshsthumbnail.png');
-    background-size: contain;
+    background-size: cover;
 }
-
 
 .projecttwo {
    background-image : url('images/twiagethumbnail.png');
-   background-size: contain;
-       background-repeat: no-repeat;
+   background-size: cover;
+}
 
+.observer {
+    background-image: url('images/observerthumbnail.png');
+    background-size: cover;
 }
 
 
@@ -289,5 +303,68 @@ button {
 
 button:hover {
     opacity: .8;
+}
+
+@media only screen and (max-width: 736px){
+    .home .intro h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0px;
+        font-weight: 700;
+    }
+
+    .home .intro p {
+        margin: 0px;
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 130%;
+        width:100%;
+    }
+
+    .projects {
+        margin-top: 30px;
+        display: block;
+    }
+
+    .project {
+        width: inherit;
+        padding: 30px;
+        opacity: 0.85;
+        transition: .3s ease;
+        text-decoration: none;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .project h3{
+        font-size: 2rem;
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        margin-top: 160px;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    .project p {
+        width: 250px;
+        font-size: 1rem;
+        color: white;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+
+    .HSHS {
+        background-position: -150px;
+    }
+
+    .projecttwo {
+        background-position: -160px;
+    }
+
+    .observer {
+        background-position: -140px;
+    }
+
 }
 
