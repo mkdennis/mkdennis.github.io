@@ -165,11 +165,13 @@ a:hover, a:active { text-decoration: none; color:blue }
 .HSHS {
     background-image: url('images/hshsthumbnail.png');
     background-size: cover;
+    background-position: -20px;
 }
 
 .projecttwo {
    background-image : url('images/twiagethumbnail.png');
    background-size: cover;
+
 }
 
 .observer {
@@ -315,7 +317,7 @@ button:hover {
     .home .intro p {
         margin: 0px;
         margin-top: 20px;
-        font-size: 1rem;
+        font-size: 1.4rem;
         font-weight: 500;
         line-height: 130%;
         width:100%;
