@@ -6,6 +6,7 @@ body {
    font-weight: 400;
    width: 100%;
    background-color: #F7F7F7;
+   color: #202020 !important;
 }
 
 h1 {
@@ -125,6 +126,7 @@ a:hover, a:active { text-decoration: none; color:blue }
     opacity: 0.85;
     transition: .3s ease;
     text-decoration: none;
+    border-radius: 6px;
 }
 
 .project h3{
@@ -155,7 +157,6 @@ a:hover, a:active { text-decoration: none; color:blue }
 
 
 
-
 .project:hover {
     opacity: 1;
     box-shadow: inset 0 0 0 20px #392fde;
@@ -180,6 +181,10 @@ a:hover, a:active { text-decoration: none; color:blue }
     background-size: cover;
 }
 
+.humanfactor {
+    background-image: url('images/enp166thumbnail.png');
+    background-size: cover;
+}
 
 
 .comp20 {
@@ -286,7 +291,7 @@ a:hover, a:active { text-decoration: none; color:blue }
 }
 
 #siteredesign img{
-    display: block;
+    display: block;h1
     margin: 0 auto;
 }
 
@@ -294,6 +299,41 @@ a:hover, a:active { text-decoration: none; color:blue }
     display: block;
     margin: 0 auto;
 }
+
+/*computer interface design*/
+
+.enp166 .section {
+    display: flex;
+}
+
+.enp166 .description {
+/*    border-style: solid;
+*/    width: 500px;
+    padding-right: 30px;
+}
+
+.enp166 .projectimage {
+/*    border-style: solid;
+*/    flex-grow: 1;
+}
+
+.enp166 .writing p, li {
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.enp166 .writing h2 {
+    font-family: inherit;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.enp166 .intro h1 {
+    font-size: 3.2rem;
+}
+
+
 
 button {
     background-color: #392fde;
