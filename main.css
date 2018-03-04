@@ -28,6 +28,7 @@ a:hover, a:active { text-decoration: none; color:blue }
     margin-bottom: 0px;
     padding: 0;
     text-align: center;
+    height: 100px;
 }
 
 .homelink {
