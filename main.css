@@ -127,7 +127,7 @@ a:hover, a:active { text-decoration: none; color:blue }
     opacity: 0.85;
     transition: .3s ease;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 .project h3{
@@ -148,14 +148,29 @@ a:hover, a:active { text-decoration: none; color:blue }
 }
 
 .project.observer p {
-     color: #323232;
-     width: 280px;
+/*     color: #323232;
+*/     width: 280px;
 }
 
 .project.observer h3 {
-     color: #323232;
+/*     color: #323232;
+*/}
+
+.project.HSHS h3 {
+    color: #323232;
 }
 
+.project.HSHS p {
+    color: #323232;
+}
+
+.project.humanfactor h3 {
+    color: #323232;
+}
+
+.project.humanfactor p {
+    color: #323232;
+}
 
 
 .project:hover {
