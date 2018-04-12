@@ -177,7 +177,7 @@ a:hover, a:active { text-decoration: none; color:blue }
 }
 
 .project.observer:hover {
-	background: #392fde;
+	background: #252525;
 	transition: background-color .3s linear;
 
 }
