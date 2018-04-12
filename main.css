@@ -166,7 +166,7 @@ a:hover, a:active { text-decoration: none; color:blue }
 */
 
 .project.HSHS:hover {
-	background: #D8BB8A;
+	background: #405788;
 	transition: background-color .3s linear;
 }
 
