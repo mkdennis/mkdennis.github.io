@@ -381,6 +381,10 @@ a:hover, a:active { text-decoration: none; color:blue }
     font-size: 1.6rem;
 }
 
+.enp166 .seemore .section{
+	display: block;
+}
+
 
 
 button {
