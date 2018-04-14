@@ -248,7 +248,11 @@ a:hover, a:active { text-decoration: none; color:blue }
     /*border: 1px solid #000000;*/
     padding-top: 20px;
     padding-left: 30px;
+}
 
+.biocontainer .column.right p {
+	font-size: .7rem;
+	text-align: center;
 }
 
 .biocontainer .column.left p {
