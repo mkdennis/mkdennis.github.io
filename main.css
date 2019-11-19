@@ -11,19 +11,48 @@ body {
 
 h1 {
 	font-weight: 200;
+
+
+}
+
+.home h1{
+        color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #202020;
+    -webkit-text-stroke-color: #FFBD00;
 }
 
 h2 {
     font-size: 1.3rem;   
 }
 
-a:link { color: #CC9B9B; text-decoration: underline;}
-a:visited { color: #CC9B9B;}
-a:hover { text-decoration: none; color:blue; }
+a:link { color: #202020; text-decoration: underline;}
+a:visited { color: #202020;}
+a:hover { text-decoration: none; color: #0900FF; }
 a:focus { text-decoration: none; color:yellow; }
-a:hover, a:active { text-decoration: none; color:blue }
+a:hover, a:active { text-decoration: underline; color:blue }
+
+
+
+.jooho:after{
+    content: 'J.';
+}
+
+.jooho:hover:after{
+    content: '주호';
+}
+
+.kim:after{
+    content: 'Kim';
+}
+
+.kim:hover:after{
+    content: '김';
+}
+
 
 .footer {
+    font-weight: 500;
     margin-top: 100px;
     margin-bottom: 0px;
     padding: 0;
@@ -44,7 +73,7 @@ a:hover, a:active { text-decoration: none; color:blue }
 }
 
 .body-wrapper {
-    margin: 80px 10%;
+    margin: 70px 7%;
 }
 
 .navigation-menu {
@@ -74,15 +103,18 @@ a:hover, a:active { text-decoration: none; color:blue }
 }
 
 .home .intro h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 0px;
+    margin-top: 0px;
     font-weight: 700;
 }
+
+
 
 .home .intro p {
     margin: 0px;
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 130%;
     width:100%;
@@ -117,23 +149,27 @@ a:hover, a:active { text-decoration: none; color:blue }
 
 .projects a{
     text-decoration: none;
+    color: white;
 }
 
+.home .projects a:hover { text-decoration: none; color: #202020; }
+
+
 .project {
-    height: 150px;
     width: inherit;
-    padding: 50px;
-    padding-top: 200px;
-    padding-bottom: 10px;
+    padding: 35px;
+    padding-top: 260px;
+    padding-bottom: 5px;
     transition: .3s ease;
     text-decoration: none;
     border-radius: 4px;
+    height: 150px;
+
 }
 
 .project h3{
-    font-size: 3rem;
+    font-size: 2.6rem;
     font-weight: 500;
-    color: white;
     margin: 0;
     text-decoration: none;
     text-align: left;
@@ -142,7 +178,6 @@ a:hover, a:active { text-decoration: none; color:blue }
 .project p {
     width: 250px;
     font-size: 1.2rem;
-    color: white;
     font-weight: 200;
     margin-top: 10px;
 }
@@ -166,25 +201,29 @@ a:hover, a:active { text-decoration: none; color:blue }
 */
 
 .project.HSHS:hover {
-	background: #405788;
-	transition: background-color .3s linear;
+    -moz-box-shadow: 0 0 15px #405688;
+    -webkit-box-shadow: 0 0 15px #405688;
+    box-shadow: 0 0 15px #405688;
 }
 
 .project.projecttwo:hover {
-	background: #BE5E5E;
-	transition: background-color .3s linear;
+    -moz-box-shadow: 0 0 15px #9A3B3B;
+    -webkit-box-shadow: 0 0 15px #9A3B3B;
+    box-shadow: 0 0 15px #9A3B3B;
 
 }
 
 .project.observer:hover {
-	background: #252525;
-	transition: background-color .3s linear;
+    -moz-box-shadow: 0 0 15px #252525;
+    -webkit-box-shadow: 0 0 15px #252525;
+    box-shadow: 0 0 15px #252525;
 
 }
 
 .project.humanfactor:hover {
-	background: #CC9B9B;
-	transition: background-color .3s linear;
+    -moz-box-shadow: 0 0 15px #CC9A9B;
+    -webkit-box-shadow: 0 0 15px #CC9A9B;
+    box-shadow: 0 0 15px #CC9A9B;
 
 }
 
@@ -217,7 +256,7 @@ a:hover, a:active { text-decoration: none; color:blue }
 }
 
 .observer {
-    background-image: url('images/observerthumbnail.png');
+    background-image: url('images/corridorthumbnail.png');
     background-size: cover;
 }
 
@@ -310,13 +349,11 @@ a:hover, a:active { text-decoration: none; color:blue }
 .casestudy .intro p {
     font-size: 1.4rem;
     line-height: 130%;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
-    color: #9B9B9B;
 }
 
 .casestudy .writing p, li{
-    font-family: Georgia;
     text-align: left;
     font-size: 18px;
     font-weight: 500;
