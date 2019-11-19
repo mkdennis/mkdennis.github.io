@@ -5,7 +5,7 @@ body {
    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 400;
    width: 100%;
-   background-color: #F7F7F7;
+   background-color: #A7A7A7;
    color: #202020 !important;
 }
 
@@ -65,7 +65,7 @@ a:hover, a:active { text-decoration: none; color:blue }
 }
 
 .home .column.left  {
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .home .column.right {
