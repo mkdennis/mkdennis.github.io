@@ -306,13 +306,47 @@ a:hover, a:active { text-decoration: underline; color:blue }
 
 
 
-/* -----------Twiage----------- */
+/* -----------Case Study----------- */
+
+
+.brandidentity {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1rem;
+}
+
+.storeimages {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
 
 
 .mainprojects p{
     margin-top: 5px;
-
 }
+
+.casestudy .intro h1{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #202020;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.casestudy .intro p {
+    font-size: 1rem;
+    line-height: 130%;
+    font-weight: 500;
+    text-align: left;
+}
+
 
 .intro p {
     margin-bottom: 10px;
@@ -334,23 +368,9 @@ a:hover, a:active { text-decoration: underline; color:blue }
 }
 
 .casestudy .intro{
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.casestudy .intro h1{
-    font-size: 3.5rem;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.casestudy .intro p {
-    font-size: 1.4rem;
-    line-height: 130%;
-    font-weight: 500;
-    text-align: center;
 }
 
 .casestudy .writing p, li{
