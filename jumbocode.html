@@ -52,19 +52,19 @@
 
         </div>
 
-         <div class = "background f5 w-60 sans-serif fn mt5 tj center cf fade lh-copy">
+         <div class = "background f5 w-60 sans-serif fn mv5 tj center cf fade lh-copy">
             <h2>Ideation</h2>
             <p>Our initial research came in the form of weekly skype calls with me, our team's PM, the current shelter director as well as a past director. During these calls we were able to gain more information about what the process was like both on the volunteer side and the higher level administrative side. Hearing the director's anecdotes and learning about the volunteer's needs in certain scenarios proved very helpful for our app development.</p>
         </div>
 
-        <div class = "flex mv4">
+<!--         <div class = "flex mv4">
             <div class = "w-50 bg-green" style = "height:300px">
                 <h3>User: Street Team Volunteer</h3>
             </div>
             <div class = "w-50 bg-pink" style = "height:300px">
                 <h3>User: HSHS Night Coordinator</h3>
             </div>
-        </div>
+        </div> -->
 
 
 
@@ -72,7 +72,7 @@
             <div class = "w-30 lh-copy mh3 pa3 pb0 ba b--dotted">
                 <h3 class = "mb0">User Need #1: End of Night Report</h3>
                 <hr>
-                <p>At the end of the night, volunteers have trouble remembering certain key events during the night. Additionally, the end of night reporting process is tedious with many input boxes. During our field research we found volunteers giving low quality data in their reports ("Met two guys tonight") because they wanted to rush through the process. These notes provide important information for future volunteer runs i.e. "avoid 32nd street, people by the COOP bookstore were really thankful for the blankets we gave them". The information is also given to the ED who includes this information in their funding proposals. 
+                <p>At the end of night report, volunteers have trouble remembering certain key events during street run session. Additionally, the end of night reporting process is tedious with many input boxes. During our field research we found volunteers giving low quality data in their reports ("Met two guys tonight") because they wanted to rush through the process. These notes provide important information for future volunteer runs i.e. "avoid 32nd street, people by the COOP bookstore were really thankful for the blankets we gave them". The information is also given to the ED who includes this information in their funding proposals. 
                 <h3 class = "mb1">How Might We?</h3>
                 <p class = "mt1">How might we simplify the end of night report process while still ensuring we collect high quality data for future runs?</p>
                 <h3 class = "mb1">Feature:</h3>
@@ -85,7 +85,7 @@
                 <hr>
                 <p>Like many shelters, the HSHS uses a lottery number system to distribute spots for their limited amount of beds. After 11am each day, guests receive their number either by stopping by the shelter or calling into their hotline. At 6pm, the winning numbers are released, however, it can be difficult for guests to find out this information due to an inability to access a phone and call or abandon their belongings to come to the shelter. Street teamers during their resource distribution will generally call in for the guests, however this requires the coordinator to be on constant alert for calls.</p>
 
-                <p>Additionally street teamers occassionally run out of a particular resource on their first pass through the Harvard neighborhood. On their second pass through the neighborhood it can be difficult to remember the location of the guests and their specific resource request.</p>
+                <p>Additionally street teamers will occassionally run out of a particular resource on their first pass through the Harvard neighborhood. On their second pass through the neighborhood it can be difficult to remember the location of the guests and their specific resource request.</p>
                 <h3 class = "mb1">How Might We?</h3>
                 <p class = "mt1">How might we help street teamers efficiently provide guests the resources and information they need?</p>
                 <h3 class = "mb1">Feature:</h3>
@@ -96,11 +96,11 @@
             <div class = "w-30 lh-copy mh3 pa3 ba b--dotted">
                 <h3 class = "mb0">User Need #3: Guest Profiles</h3>
                 <hr>
-                <p>Because there are different sets of volunteers every night, there is little to no continuation of valuable knowledge about previous nights' reports + regular guests. 
+                <p>Because different sets of volunteers go out every night, there is little to no continuation of valuable knowledge about previous nights' reports + regular guests. 
                 <h3 class = "mb1">How Might We?</h3>
-                <p class = "mt1">How might we help street teamers efficiently provide guests the resources and information they need?</p>
-                <h3 class = "mb1">App Feature:</h3>
-                <p class = "mt1">A easily accessible note taking app that allows enough flexibility for different use cases but standardized to ensure clean data entry/access on the backend.</p>
+                <p class = "mt1">How might we facilitate the transfer of knowledge from night to night? Also how might we collect data about reoccuring guests while still respecting their privacy?</p>
+                <h3 class = "mb1">Feature:</h3>
+                <p class = "mt1">A guest profile system that logs and connects previous interactions</p>
             </div>
 
 
@@ -114,19 +114,19 @@
         
         <div class = "flex ma4">
           <!--   <div class = "w-50 bg-orange white" style = "height: 500px">Style + Design Rationale + Show color scheme + reusable components (allude to design system)</div>
- -->
-        <img src = "images/jumbostyleguide.png" class = "w-50">
-
+ -->    <div class = "w-50">
+        <img src = "images/jumbostyleguide.png">
+        </div>
             <div class = "background f5 w-40 sans-serif fn mt3 mb3 tj center cf fade lh-copy">
                 <p><b>Color: </b>Dealing with vunerable populations requires a level of softness. This is reflected in the guest profile color pallete as well as the general calm app aesthetic.</p>
                 <p><b>Reusable Components: </b>Because of the app's complexity + multitude of entry points for the same function, I thought it was extremely important to use the exact same visual components from screen to screen. The action item for instance look the same across screens even though they are for different use cases. Once a user learns how to use a certain piece of UI, it will be easier to understand it in a different context. </p>
                 <p>From a developer's perspective, reusable components make things alot easier. React Native is especially good at being able to reuse the same UI components for different screens.</p>
-                <p><b>Simplicity for each screen:</b></p>
+                <p><b>Simplicity for each screen:</b> Each screen contains at maximum 4 visual components as well as one or two main functions. It is important not to overwhelm the user with too much stimuli as we want the user to use the app quickly and frequently. </p>
             </div>
          </div>
-
+<!-- 
                  <div class = "w-100 bg-blue white" style = "height: 400px">Use case + User Flow + All wireframes + connections + design decisions</div>
-
+ -->
 
 <!--         <div class = "w-100 bg-yellow white" style = "height: 500px">Big Layout of High Fidelity Screens</div> -->
 
