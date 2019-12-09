@@ -30,6 +30,8 @@ a:hover, a:active { text-decoration: underline; color:blue }
   -webkit-text-stroke-color: #5E2CA5;
 }
 
+@media 
+
 .jooho:after{
     content: 'J.';
 }
@@ -50,13 +52,27 @@ a:hover, a:active { text-decoration: underline; color:blue }
   width: 100%;
 }
 
+.home-tilepreview {
+  height: 450px;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+  .home-tilepreview {
+    height: auto;
+  }
+
+
+}
+
 .home-tilepreview a {
   color: white;
   text-decoration: none;
 }
 
 .home-link {
-	font-size: 2rem;
 	color: transparent;
   -webkit-text-stroke-width: .6px;
   -webkit-text-stroke-color: #5E2CA5;
