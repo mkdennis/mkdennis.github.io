@@ -5,8 +5,8 @@ body {
    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 400;
    width: 100%;
-   background-color: #CCCCCC;
-   color: #202020 !important;
+   background-color: #F4F4F4;
+   color: #202020;
 }
 
 .nav { color: #202020; text-decoration: underline;}
