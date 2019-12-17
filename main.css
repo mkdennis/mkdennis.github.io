@@ -57,6 +57,28 @@ hr {
   height: 450px;
 }
 
+.twiage-thumbnail {
+  background-image: url("images/twiagethumbnail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.hshs-thumbnail {
+  background-image: url("images/hshs-thumbnail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.corridor-thumbnail {
+  background-image: url("images/corridor-thumbnail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
