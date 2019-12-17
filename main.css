@@ -78,6 +78,14 @@ hr {
   height: 300px;
 }
 
+.enp166-thumbnail {
+  background-image: url("images/enp166-thumbnail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+
+}
+
 
 @media only screen 
 and (min-device-width : 375px) 
