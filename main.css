@@ -12,9 +12,12 @@ body {
 .nav { color: #202020; text-decoration: underline;}
 
 a {color: blue;}
-a:visited { color: #blue;}
+a:visited { color: blue;}
 a:hover, a:active { text-decoration: underline; color:blue }
 
+hr {
+  border: 1.5px solid #000;
+}
 
 .page-title {
   font-size: 3.3rem;
@@ -24,15 +27,13 @@ a:hover, a:active { text-decoration: underline; color:blue }
 }
 
 .home-title {
-   font-size: 4.5rem;
+   font-size: 4rem;
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #5E2CA5;
 }
 
-@media 
-
-.jooho:after{
+.jooho:after {
     content: 'J.';
 }
 
@@ -67,10 +68,6 @@ and (-webkit-device-pixel-ratio : 3) {
 
 }
 
-.home-tilepreview a {
-  color: white;
-  text-decoration: none;
-}
 
 .home-link {
 	color: transparent;
@@ -111,3 +108,12 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 
 }
+
+.red-block {
+  height: 400px;
+}
+
+.blue-block {
+  height: 0px;
+}
+
