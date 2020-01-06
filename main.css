@@ -15,6 +15,10 @@ a {color: blue;}
 a:visited { color: blue;}
 a:hover, a:active { text-decoration: underline; color:blue }
 
+.olink a {
+  color: #202020;
+}
+
 hr {
   border: 1.5px solid #000;
 }
@@ -78,12 +82,28 @@ hr {
   height: 300px;
 }
 
+.corridor-thumbnail2 {
+  background-image: url("images/corridorcup.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+
+
 .enp166-thumbnail {
   background-image: url("images/enp166-thumbnail.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
 
+}
+
+.observer-thumbnail {
+    background-image: url("images/observer-thumbnail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 300px;
 }
 
 
