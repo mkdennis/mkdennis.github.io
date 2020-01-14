@@ -37,6 +37,10 @@ hr {
   -webkit-text-stroke-color: #5E2CA5;
 }
 
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
 .jooho:after {
     content: 'J.';
 }
@@ -131,7 +135,7 @@ and (-webkit-device-pixel-ratio : 3) {
 }
 
 .steve-photo {
-  background-image: url('images/profile-pic.jpg');
+  background-image: url('images/profile-pic.png');
   background-size: cover;
 }
 
