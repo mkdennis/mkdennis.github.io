@@ -9,11 +9,20 @@ body {
    color: #202020;
 }
 
-.nav { color: #202020; text-decoration: underline;}
+.nav { color: #202020; text-decoration: underline;
+background-color: #F4F4F4;
+border-style: solid;
+border-color: #5E2CA5;
+border-width: 1.5px;
+box-shadow: -1px 1px #5E2CA5, -2px 2px #FEB68A, -3px 3px #5E2CA5, -4px 4px #FEB68A, -5px 5px #5E2CA5, -6px 6px #FEB68A, -7px 7px #5E2CA5;
+}
 
-a {color: blue;}
-a:visited { color: blue;}
-a:hover, a:active { text-decoration: underline; color:blue }
+.nav a {color: black;}
+.nav a:visited {color: black;}
+
+a {color: black;}
+a:visited { color: black;}
+a:hover, a:active { text-decoration: underline; color: #5E2CA5 }
 
 .olink a {
   color: #202020;
